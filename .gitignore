@@ -1,0 +1,85 @@
+# Python  
+__pycache__/  
+*.py[cod]  
+*$py.class  
+*.so  
+.Python  
+build/  
+develop-eggs/  
+dist/  
+downloads/  
+eggs/  
+.eggs/  
+lib/  
+lib64/  
+parts/  
+sdist/  
+var/  
+wheels/  
+*.egg-info/  
+.installed.cfg  
+*.egg  
+
+# Termux  
+/data/data/com.termux/  
+termux-bootstrap/  
+termux-packages/  
+usr/  
+
+# Environment  
+.env  
+.venv  
+env/  
+venv/  
+ENV/  
+env.bak/  
+venv.bak/  
+
+# Logs  
+*.log  
+logs/  
+
+# Tor  
+/data/data/com.termux/files/usr/var/lib/tor/  
+/data/data/com.termux/files/usr/etc/tor/  
+
+# Local  
+*.local  
+.cache/  
+.session  
+.idea/  
+.vscode/  
+
+# System  
+.DS_Store  
+.DS_Store?  
+._*  
+.Spotlight-V100  
+.Trashes  
+ehthumbs.db  
+Thumbs.db  
+
+# Secrets  
+secrets.py  
+config.json  
+*.key  
+*.pem  
+
+# Testing  
+.coverage  
+htmlcov/  
+.pytest_cache/  
+
+# Jupyter  
+.ipynb_checkpoints  
+
+# Output  
+*.csv  
+*.db  
+*.sqlite  
+
+# Custom  
+attack_results/  
+temp/  
+override.tf  
+*.tar.gz  
